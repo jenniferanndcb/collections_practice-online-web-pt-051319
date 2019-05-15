@@ -16,8 +16,7 @@ def reverse_array (array)
 end
 
 def kesha_maker (array)
-  new_arr = []
-    new_arr << array.each {|word|
+  array.each {|word|
       word.gsub.slice[2] ='$'}
   new_arr
 end
